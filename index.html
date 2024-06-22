@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albus Bio</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'DM Sans', sans-serif;
+            color: #333333;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container, .footer-content {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 10px; /* Reduced from 20px to 10px */
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        h1 {
+            color: #CC0100;
+            font-size: 24px;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-top: 0; /* Added to remove top margin */
+        }
+        footer {
+            width: 100%;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a {
+            color: #333333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-title">
+            <h1>Albus Bio</h1>
+            <div class="logo">
+                <img src="path/to/your/logo.png" alt="Albus Bio Logo">
+            </div>
+        </div>
+        <p>bringing to market the first <strong>approved aging drugs</strong></p>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>© Albus Bio 2024</p>
+            <p><a href="mailto:ada@albus.bio">Ada</a> <a href="mailto:david@albus.bio">David</a></p>
+        </div>
+    </footer>
+</body>
+</html>
